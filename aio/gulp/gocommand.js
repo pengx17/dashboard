@@ -30,7 +30,7 @@ const devPath = `${process.env.PATH}:${conf.paths.goTools}/bin`;
 /**
  * The environment needed for the execution of any go command.
  */
-const env = lodash.merge(process.env, {GOPATH: sourceGopath, PATH: devPath});
+const env = lodash.merge(process.env, {PATH: devPath});
 
 /**
  * Minimum required Go Version

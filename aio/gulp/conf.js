@@ -88,7 +88,7 @@ export default {
     /**
      * The name of the backend binary.
      */
-    binaryName: 'dashboard',
+    binaryName: 'dashboard.exe',
     /**
      * Name of the main backend package that is used in go build command.
      */
